@@ -1,0 +1,15 @@
+name: locoparser
+services:
+  postgres:
+    image: postgres:15
+    container_name: postgres
+    environment:
+      POSTGRES_USER: sunday
+      POSTGRES_PASSWORD: sunday
+      POSTGRES_DB: postgresDb
+    ports:
+      - "4333:5432"
+    volumes:
+      - ./data/postgres:/var/lib/postgresql/data
+volumes:
+  postgres_data:

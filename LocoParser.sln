@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{350701F6-A673-452C-BAE8-C3032A6042D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{DB07C755-7E08-4ABA-828B-F6D6A6F010FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocoParser.Core.Domain", "src\Core\LocoParser.Core.Domain\LocoParser.Core.Domain.csproj", "{7B8A2319-2036-43E1-AA01-8DC9E8B5CEA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocoParser.Core.Infrastructure", "src\Core\LocoParser.Core.Infrastructure\LocoParser.Core.Infrastructure.csproj", "{0C0C9721-06EA-42ED-8123-781BC2866822}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocoParser.Core.Application", "src\Core\LocoParser.Core.Application\LocoParser.Core.Application.csproj", "{BFBC1888-032C-48DB-AEB8-61D9E9ED0A29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{E8F8C130-2EAB-49C5-80F1-33421ABEBF09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocoParser.BlazorApp", "src\Application\LocoParser.BlazorApp\LocoParser.BlazorApp.csproj", "{ABA0795E-73C7-4DF7-997B-640F7ECC57ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8A2319-2036-43E1-AA01-8DC9E8B5CEA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8A2319-2036-43E1-AA01-8DC9E8B5CEA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8A2319-2036-43E1-AA01-8DC9E8B5CEA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8A2319-2036-43E1-AA01-8DC9E8B5CEA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C0C9721-06EA-42ED-8123-781BC2866822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C0C9721-06EA-42ED-8123-781BC2866822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C0C9721-06EA-42ED-8123-781BC2866822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C0C9721-06EA-42ED-8123-781BC2866822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFBC1888-032C-48DB-AEB8-61D9E9ED0A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFBC1888-032C-48DB-AEB8-61D9E9ED0A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFBC1888-032C-48DB-AEB8-61D9E9ED0A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFBC1888-032C-48DB-AEB8-61D9E9ED0A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA0795E-73C7-4DF7-997B-640F7ECC57ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA0795E-73C7-4DF7-997B-640F7ECC57ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA0795E-73C7-4DF7-997B-640F7ECC57ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA0795E-73C7-4DF7-997B-640F7ECC57ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB07C755-7E08-4ABA-828B-F6D6A6F010FF} = {350701F6-A673-452C-BAE8-C3032A6042D0}
+		{7B8A2319-2036-43E1-AA01-8DC9E8B5CEA1} = {DB07C755-7E08-4ABA-828B-F6D6A6F010FF}
+		{0C0C9721-06EA-42ED-8123-781BC2866822} = {DB07C755-7E08-4ABA-828B-F6D6A6F010FF}
+		{BFBC1888-032C-48DB-AEB8-61D9E9ED0A29} = {DB07C755-7E08-4ABA-828B-F6D6A6F010FF}
+		{E8F8C130-2EAB-49C5-80F1-33421ABEBF09} = {350701F6-A673-452C-BAE8-C3032A6042D0}
+		{ABA0795E-73C7-4DF7-997B-640F7ECC57ED} = {E8F8C130-2EAB-49C5-80F1-33421ABEBF09}
+	EndGlobalSection
+EndGlobal
